@@ -112,8 +112,13 @@ input:focus {
     color: rgb(164, 29, 29);
 }
 
-input[type=text].error{
+input.error{
     border: 1px solid rgb(164, 29, 29);
+}
+
+.verified {
+    background-color: green;
+    
 }
 
 .but {
