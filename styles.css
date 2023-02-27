@@ -1,0 +1,45 @@
+@font-face {
+    font-family: font-god;
+    src: url(./Norse-Bold.otf);
+  }
+
+.background {
+    background-image: url(img/bg.png);
+    height: 100vh;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.background > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-top: 10vh;
+    background-color: rgba(189, 100, 85, 0.414);
+    height: 18vh;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 10px;
+    font-family: font-god;
+    padding-top: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 7vw;
+
+}
